@@ -1,5 +1,8 @@
 .user-component{
     justify-content: space-between;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
 }
 
 .user-component,
@@ -43,5 +46,13 @@
 }
 
 .user-component__column:last-child{
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.user-component__time{
+    display: block;
+    margin-bottom: 10px;
 }
