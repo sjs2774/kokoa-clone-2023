@@ -5,7 +5,8 @@
     width: 100%;
     justify-content: center;
     padding: 5px 3px;
-    
+    z-index: 1;
+    background-color: white;
 
 }
 

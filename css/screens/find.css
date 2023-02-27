@@ -1,24 +1,7 @@
+
+
 .main-screen{
     padding-bottom: 100px;
-}
-.find-icons{
-    display:flex;
-    justify-content: space-between;
-}
-
-.find-icons__icon{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- 
-}
-
-.find-icons__icon i {
-    font-size: 35px;
-}
-
-.find-icons__icon span{
-    margin-top: 18px;
 }
 
 .recommended-friends{
@@ -129,4 +112,24 @@
 
 .open-post__heart-count span{
     margin-left: 3px;
+}
+
+@keyframes heartBeat{
+    0%{
+        color: white;
+        transform: none;
+    }
+    50%{
+        color: tomato;
+        font-size: larger;
+    }
+    100%{
+        color: white;
+        transform: none;
+    }
+}
+
+.open-post__heart-count:hover i{
+    will-change: transform;
+    animation: heartBeat 1s linear infinite;
 }

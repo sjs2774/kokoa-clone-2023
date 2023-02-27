@@ -1,7 +1,7 @@
 .user-component{
     justify-content: space-between;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
+    /* margin-bottom: 10px; */
+    /* padding-bottom: 10px; */
     /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
 }
 
@@ -55,4 +55,12 @@
 .user-component__time{
     display: block;
     margin-bottom: 10px;
+}
+
+.user-component__subtitle span{
+    display: inline-block;
+    color: tomato;
+    padding: 0 4px;
+    border: 1px solid tomato;
+    border-radius: 50%;
 }

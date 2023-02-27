@@ -1,0 +1,47 @@
+.more-screen .icon-row{
+    margin-top: 35px;
+}
+
+.more-suggestions{
+    margin: 15px 0;
+    padding-top: 30px;
+    border-top: var(--main-border);
+}
+
+.more-suggestions__title{
+    font-weight: bold;
+}
+
+.more-suggestions__icons{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.more-suggestions__icon{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.more-suggestions__icon-image{
+    width: 60px;
+    height: 60px;
+    background-color: var(--yellow);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.more-suggestions__icon-image i{
+    font-size: 30px;
+    color: white;
+}
+
+.more-suggestions__icon-text{
+    color: var(--gray-font);
+}
